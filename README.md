@@ -50,3 +50,6 @@ as the element is not the immediate target of the drag&drop, you get a `dragleav
 
 Now, what the plugin does is simply use the Data API to count the number of `dragenter`/`dragleave` events received by
 droppables and their descendants. If the number is 1, then dragging is occuring.
+
+It will also prevent the default drop action: open the dropped content in the browser. Yeah, by default, if you miss the
+drop target, the browser navigates away and you lose everything you were doing.
