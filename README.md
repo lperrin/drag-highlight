@@ -6,7 +6,7 @@ Minimalistic jQuery plugin to style HTML5 Drag&amp;Drop easily.
 TL;DR
 -----
 
-This plugin aims to:
+This plugin aims at:
 
 - Highlight all droppable areas as soon as the user starts dragging a file over the browser.
 - Activate a droppable area when the user is hovering over it.
